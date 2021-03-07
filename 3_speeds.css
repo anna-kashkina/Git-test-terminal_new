@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Arial;
+}
+.header {}
+.main {
+    max-width: 632px;
+    margin: 0 auto;
+    width: 100%;
+}
+.speed-link-box {
+    background: url("img/fan.png") 0 0 no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 32px;
+    height: 396px;
+    width: 442px;
+    margin: 0 auto;
+}
+.speed-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #d35212d9;
+    color: white;
+    padding: 7px 14px;
+    height: 22px;
+    border-radius: 16px;
+    font-weight: 700;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+.speed-link:hover {
+    /*background-color: #b44f4f;*/
+    background-color: #af2921;
+    transform: scale(1.2);
+}
+.footer {}
+
+@media screen and (max-width: 520px )  {
+    .speed-link-box {
+        flex-direction: column;
+        padding: 50px 8px;
+    }
+    .speed-link {
+        margin: 0 auto 40px;
+    }
+    .main {
+        overflow: hidden;
+    }
+}
