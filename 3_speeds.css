@@ -5,11 +5,17 @@
     font-family: Arial;
 }
 .header {}
-.main {
-    max-width: 632px;
+.header-box {
+    max-width: 650px;
     margin: 0 auto;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
+.main {
+     max-width: 632px;
+     margin: 0 auto;
+     width: 100%;
+ }
 .speed-link-box {
     background: url("img/fan.png") 0 0 no-repeat;
     display: flex;
